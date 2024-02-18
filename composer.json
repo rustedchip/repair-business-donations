@@ -1,0 +1,19 @@
+{
+    "name": "rustedchip/repair-business-donations",
+    "description": "Donation asset management package for thinkervolt/repair-business.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rustedchip\\RepairBusinessDonations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rustedchip",
+            "email": "rustedchip@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    }
+}
