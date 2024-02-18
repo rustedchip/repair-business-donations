@@ -1,3 +1,3 @@
-FROM composer:2.4 as build
+FROM composer:1.10.19 as build
 
 
