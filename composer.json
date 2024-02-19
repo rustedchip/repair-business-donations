@@ -16,5 +16,15 @@
     "require": {
         "php": "^7.3",
         "illuminate/support": "^8.83"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rustedchip\\RepairBusinessDonations\\RepairBusinessDonationsServiceProvider"
+            ],
+            "aliases": {
+                "RepairBusinessDonations": "Rustedchip\\RepairBusinessDonations\\Facade"
+            }
+        }
     }
 }
