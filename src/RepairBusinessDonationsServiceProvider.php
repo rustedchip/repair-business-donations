@@ -10,7 +10,7 @@ class RepairBusinessDonationsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/Config/repair-business-packages.php', 'repair-business-packages'
+            __DIR__.'/Config/packages.php', 'packages'
         );
 
  
