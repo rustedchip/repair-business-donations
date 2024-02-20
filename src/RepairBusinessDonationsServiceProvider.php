@@ -18,7 +18,7 @@ class RepairBusinessDonationsServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/Routes/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
         $this->loadMigrationsFrom(__DIR__.'/Migrations/migrations');
         $this->loadViewsFrom(__DIR__.'Resources/Views', 'repair-business-donations');
  
