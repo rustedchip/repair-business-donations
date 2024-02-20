@@ -6,9 +6,9 @@ use Illuminate\Routing\Controller;
 
 class DonationController extends Controller
 {
-    public function donation_index()
+    public function index_donation()
     {
-        return('donation-index');
+        return('index_donation');
     }
 
 
