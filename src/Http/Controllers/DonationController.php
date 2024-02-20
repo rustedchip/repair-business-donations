@@ -1,10 +1,10 @@
 <?php
 
-namespace Rustedchip\RepairBusinessDonations\BlogPackage\Http\Controllers;
+namespace Rustedchip\RepairBusinessDonations\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 
-class PostController extends Controller
+class DonationController extends Controller
 {
     public function donation_index()
     {
