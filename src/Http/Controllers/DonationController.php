@@ -1,8 +1,8 @@
 <?php
 
-namespace Rustedchip\RepairBusinessDonations\Http\Controllers;
+namespace Rustedchip\RepairBusinessDonations;
 
-use Illuminate\Routing\Controller;
+use App\Http\Controllers\Controller;
 
 class DonationController extends Controller
 {
