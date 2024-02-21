@@ -10,7 +10,7 @@ class RepairBusinessDonationsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/Config/packages.php', 'packages'
+            __DIR__.'/config/packages.php', 'packages'
         );
 
  
@@ -18,9 +18,9 @@ class RepairBusinessDonationsServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
-        $this->loadMigrationsFrom(__DIR__.'/Migrations/migrations');
-        $this->loadViewsFrom(__DIR__.'Resources/Views', 'repair-business-donations');
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+        $this->loadViewsFrom(__DIR__.'resources/Views', 'repair-business-donations');
  
         
     }
