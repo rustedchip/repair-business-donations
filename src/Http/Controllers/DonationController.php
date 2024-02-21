@@ -1,6 +1,6 @@
 <?php
 
-namespace Rustedchip\RepairBusinessDonations;
+namespace Rustedchip\RepairBusinessDonations\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
