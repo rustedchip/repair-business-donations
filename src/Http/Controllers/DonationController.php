@@ -3,9 +3,16 @@
 namespace Rustedchip\RepairBusinessDonations\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 class DonationController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
    
 
     public function index_donation()
