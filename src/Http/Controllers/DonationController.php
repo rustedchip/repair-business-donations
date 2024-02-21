@@ -8,7 +8,7 @@ class DonationController extends Controller
 {
     public function index_donation()
     {
-        return view('repair-business-donations::donations');
+        return view('repair-business-donations::index-donation');
     }
 
 
